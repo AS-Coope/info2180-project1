@@ -9,3 +9,21 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+/* Stylings for the header */
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container ul {
+    display: flex;
+}
+
+header .container li {
+    list-style: none;
+}
+
+header .container a {
+    text-decoration: none;
+}
