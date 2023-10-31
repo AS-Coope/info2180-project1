@@ -39,3 +39,11 @@ header .container a {
     width: 100px;
     /*switch to either auto or a fixed width later*/
 }
+
+/*Stylings for the COVID-19 Testing Programme Section*/
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 250px;
+}
