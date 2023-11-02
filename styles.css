@@ -72,3 +72,21 @@ header .container a {
     display: flex;
     flex-direction: column;
 }
+
+/*Stylings for Newsletter Section*/
+.newsletter .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* May not need this after styling the form elements, so they get bigger,
+ making the .newsletter .container selector be able to use align-items: center again*/
+.newsletter p {
+    text-align: left;
+}
+
+.newsletter form {
+    display: flex;
+}
