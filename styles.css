@@ -59,12 +59,12 @@ header .container a {
 .stories article {
     display: flex;
     justify-content: space-between;
-    gap: 100px;
+    gap: 20px;
 }
 
 .stories img {
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
     overflow: visible;
 }
 
