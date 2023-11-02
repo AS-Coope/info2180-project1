@@ -47,3 +47,25 @@ header .container a {
     align-items: center;
     gap: 250px;
 }
+
+/*Stylings for Recent Stories Section*/
+.stories .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.stories article {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.stories img {
+    height: 100px;
+    width: 100px;
+}
+
+.article-body {
+    display: flex;
+    flex-direction: column;
+}
