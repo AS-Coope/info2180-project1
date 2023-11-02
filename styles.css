@@ -63,6 +63,7 @@ header .container a {
 .stories img {
     height: 100px;
     width: 100px;
+    overflow: visible;
 }
 
 .article-body {
