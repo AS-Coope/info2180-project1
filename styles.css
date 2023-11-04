@@ -63,6 +63,12 @@ header .container a:hover {
 }
 
 /*Stylings for the Learn About section*/
+
+.learn-about .container h2 {
+    font-size: 24px;
+    color: #48BB78;
+}
+
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
