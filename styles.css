@@ -42,6 +42,25 @@ header .container a:hover {
     color: #5A67D8;
 }
 
+/*Stylings for the Hero Section */
+.overview-hero .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.overview-hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.overview-hero-image img {
+    width: 100px;
+    height: 100px;
+}
+
 /*Stylings for the Learn About section*/
 .cards {
     display: grid;
