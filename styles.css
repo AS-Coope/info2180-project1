@@ -15,6 +15,7 @@ body {
 /* Stylings for the header */
 header {
     background-color: white;
+    padding: 20px 0px;
 }
 
 header .container {
@@ -48,8 +49,8 @@ header .container a:hover {
 
 /*Stylings for the Hero Section */
 .overview-hero {
-
     background-color: #E2E8F0;
+    padding: 40px 0px;
 }
 
 .overview-hero .container {
@@ -71,6 +72,10 @@ header .container a:hover {
 }
 
 /*Stylings for the Learn About section*/
+
+.learn-about {
+    padding: 20px 0px;
+}
 
 .learn-about .container h2 {
     font-size: 24px;
@@ -105,6 +110,8 @@ header .container a:hover {
 
 .testing {
     background-color: #4A5568;
+    margin-top: 20px;
+    padding: 80px 0px;
 }
 
 .testing .container {
@@ -112,9 +119,6 @@ header .container a:hover {
     justify-content: space-evenly;
     align-items: center;
     gap: 100px;
-    margin-top: 20px;
-    padding-top: 70px;
-    padding-bottom: 70px;
     color: white;
 }
 
@@ -135,6 +139,10 @@ header .container a:hover {
 }
 
 /*Stylings for Recent Stories Section*/
+.stories {
+    padding: 50px 0;
+}
+
 .stories .container {
     display: flex;
     flex-direction: column;
