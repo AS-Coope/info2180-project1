@@ -90,6 +90,8 @@ header .container a:hover {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     border: solid 4px #E2E8F0;
     border-radius: 5px;
     box-shadow: 0px 6px 5px rgb(215, 220, 230);
@@ -97,8 +99,11 @@ header .container a:hover {
 }
 
 .card img {
-    height: 100px;
-    width: 100px;
+    height: 225px;
+    width: 225px;
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
     /*switch to either auto or a fixed width later*/
 }
 
