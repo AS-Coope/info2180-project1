@@ -152,7 +152,7 @@ header .container a:hover {
 .stories .container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 60px;
 }
 
 .stories .container h2,
@@ -175,9 +175,10 @@ header .container a:hover {
 }
 
 .stories img {
-    height: 200px;
-    width: auto;
-    overflow: visible;
+    height: 250px;
+    width: 250px;
+    overflow: none;
+    border-radius: 125px;
 }
 
 .article-body {
