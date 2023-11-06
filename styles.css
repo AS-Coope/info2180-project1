@@ -128,6 +128,19 @@ header .container a:hover {
     gap: 20px;
 }
 
+.stories .container h2,
+.stories .container a {
+    color: #5A67D8;
+}
+
+.stories .container a {
+    text-decoration: none;
+}
+
+.stories .container h3 {
+    font-size: 18px;
+}
+
 .stories article {
     display: flex;
     justify-content: space-between;
