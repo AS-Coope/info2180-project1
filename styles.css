@@ -183,6 +183,7 @@ header .container a:hover {
 
 .newsletter {
     background-color: #48BB78;
+    padding: 30px 0;
 }
 
 .newsletter .container {
@@ -208,8 +209,9 @@ header .container a:hover {
     padding: 0px 200px;
 }
 
-.newsletter form {
+.newsletter .container form {
     display: flex;
+    align-items: center;
     justify-content: center;
     margin-bottom: 50px;
     gap: 10px;
@@ -232,7 +234,7 @@ header .container a:hover {
 .newsletter .container form .btn {
     border-radius: 5px;
     color: white;
-    padding: 10px 40px;
+    padding: 20px 40px;
     font-size: 16px;
 }
 
