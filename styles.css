@@ -175,8 +175,8 @@ header .container a:hover {
 }
 
 .stories img {
-    height: 140px;
-    width: 140px;
+    height: 200px;
+    width: auto;
     overflow: visible;
 }
 
