@@ -184,3 +184,9 @@ header .container a:hover {
 .newsletter form {
     display: flex;
 }
+
+footer .container {
+    display: flex;
+    padding: 20px 250px;
+    background-color: #4A5568;
+}
