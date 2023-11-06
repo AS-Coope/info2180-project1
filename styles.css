@@ -164,6 +164,7 @@ header .container a:hover {
 .newsletter .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
     background-color: #48BB78;
     color: white;
@@ -175,10 +176,13 @@ header .container a:hover {
     border-radius: 2px;
 }
 
-/* May not need this after styling the form elements, so they get bigger,
- making the .newsletter .container selector be able to use align-items: center again*/
+.newsletter h3 {
+    margin-bottom: 0px;
+}
+
 .newsletter p {
     text-align: left;
+    padding: 0px 200px;
 }
 
 .newsletter form {
@@ -196,19 +200,22 @@ header .container a:hover {
     border: 0px;
     border-radius: 5px;
     padding: 20px 0px;
-    padding-right: 80px;
+    padding-right: 65px;
     padding-left: 20px;
+    font-size: 16px;
 
 }
 
 .newsletter .container form .btn {
     border-radius: 5px;
     color: white;
-    padding: 10px 50px;
+    padding: 10px 40px;
+    font-size: 16px;
 }
 
 footer .container {
     display: flex;
     padding: 20px 250px;
     background-color: #4A5568;
+    color: white;
 }
